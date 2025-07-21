@@ -6,7 +6,7 @@ Une application mobile moderne de commande de fast-food développée avec **Reac
 
 Regardez la démonstration de l'application sur YouTube :
 
-➡️ [Voir la vidéo de démonstration(https://img.youtube.com/vi/XEQxBX8b5bQ/hqdefault.jpg)](https://www.youtube.com/shorts/XEQxBX8b5bQ)
+➡️ [Voir la vidéo de démonstration](https://www.youtube.com/shorts/XEQxBX8b5bQ)
 
 ---
 
