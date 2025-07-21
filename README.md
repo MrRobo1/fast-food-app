@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# 🍔 Fast Food App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Une application mobile moderne de commande de fast-food développée avec **React Native**, **Expo Router** et **Appwrite**. Cette application permet aux utilisateurs de découvrir des menus, personnaliser leurs commandes, et passer commande dans une interface intuitive.
 
-## Get started
+## 📽️ Aperçu
 
-1. Install dependencies
+Regardez la démonstration de l'application sur YouTube :
 
-   ```bash
-   npm install
-   ```
+➡️ [Voir la vidéo de démonstration](https://www.youtube.com/shorts/XEQxBX8b5bQ)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Fonctionnalités
 
-In the output, you'll find options to open the app in a
+- Navigation fluide avec `react-navigation`
+- Interface moderne avec `nativewind` (TailwindCSS pour React Native)
+- Connexion à une base de données avec Appwrite
+- Gestion d'état globale avec Zustand
+- Prise en charge des animations (Reanimated, Gesture Handler)
+- Support Android, iOS et Web avec Expo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Stack technique
 
-## Get a fresh project
+- **Frontend**: React Native (Expo SDK 53), TypeScript
+- **Navigation**: Expo Router
+- **State Management**: Zustand
+- **Backend**: Appwrite
+- **Style**: TailwindCSS via Nativewind
 
-When you're ready, run:
+---
+
+## 📦 Installation
 
 ```bash
-npm run reset-project
-```
+# Cloner le projet
+git clone https://github.com/votre-utilisateur/fast-food.git
+cd fast-food
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Installer les dépendances
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Lancer le projet en mode développement
+npm start
